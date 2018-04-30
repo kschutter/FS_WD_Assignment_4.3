@@ -1,0 +1,14 @@
+/* Adds the border to the whole page */
+article {
+    border: black solid 1px;
+    height: 100px;
+}
+
+/* Sets height, width, and ensures it is in the middle of the article, vertically. */
+img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
